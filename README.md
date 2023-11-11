@@ -2,7 +2,7 @@
 
 Applet for Linux Cinnamon desktop, shows current window's title, icon and/or buttons in panel
 
-![Example how to use applet in Cinnamon Panel](https://github.com/MajorTomDE/cinnamon-applet-window-buttons-with-title3/blob/a88979cfef96b46d9a4e3ce6771cedfd2616735a/screenshot.png?raw=true)
+![Example how to use applet in Cinnamon Panel](https://github.com/MajorTomDE/cinnamon-applet-window-buttons-with-title3/blob/72d146104bb28cdc9029017648c5c7047fd17669/screenshot.png?raw=true)
 
 The example above shows a top panel with two applets
 
