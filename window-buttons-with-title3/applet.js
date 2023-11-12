@@ -52,17 +52,17 @@ function WindowButtonApplet(orientation, metadata, panelHeight, instance_id) {
 }
 
 WindowButtonApplet.prototype = {
-    __proto__: Applet.Applet.prototype,
-    _init: function(orientation, metadata, panelHeight, instance_id) {
-        Applet.Applet.prototype._init.call(this, orientation, panelHeight, instance_id);
-        this.instance_id = instance_id;
-        this.appletPath = metadata.path;
+	__proto__: Applet.Applet.prototype,
+	_init: function(orientation, metadata, panelHeight, instance_id) {
+		Applet.Applet.prototype._init.call(this, orientation, panelHeight, instance_id);
+		this.instance_id = instance_id;
+		this.appletPath = metadata.path;
 	try {
-            	this.settings = new Settings.AppletSettings(this, UUID, this.instance_id);
-            
-            	this.settings.bind("title-button-action", "titleButtonAction", this.on_settings_changed);
-            	this.settings.bind("title-width-option", "titleWidthOption", this.on_settings_changed);
-            	this.settings.bind("title-width", "titleWidth", this.on_settings_changed);
+		this.settings = new Settings.AppletSettings(this, UUID, this.instance_id);
+
+		this.settings.bind("title-button-action", "titleButtonAction", this.on_settings_changed);
+		this.settings.bind("title-width-option", "titleWidthOption", this.on_settings_changed);
+		this.settings.bind("title-width", "titleWidth", this.on_settings_changed);
 		this.settings.bind("title-icon-width", "titleIconWidth", this.on_settings_changed);
 		this.settings.bind("buttons-style", "buttons_style", this.on_settings_changed);
 		this.settings.bind("buttons-theme", "buttonsTheme", null);
@@ -377,9 +377,9 @@ WindowButtonApplet.prototype = {
 	},
 
 	maximizeWindow: function() {
-		if (this.button["maximize"].opacity == 0) {
-			return false;
-		}
+		//if (this.button["maximize"].opacity == 0) {
+		//	return false;
+		//}
 		let activeWindow = global.display.focus_window;
 		if (activeWindow) {
 			let tracker = Cinnamon.WindowTracker.get_default();

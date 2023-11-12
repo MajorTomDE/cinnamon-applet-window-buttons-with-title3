@@ -75,8 +75,8 @@
       "Scale": "1",
       "Expo": "3",
       "Show Desktop": "2",
-      "Move Window": "4"
-
+      "Move Window": "4",
+      "(Un)Maximize Window": "5"
     }
   },
   "icon-middle-button-action": {
@@ -88,7 +88,8 @@
       "Scale": "1",
       "Expo": "3",
       "Show Desktop": "2",
-      "Move Window": "4"
+      "Move Window": "4",
+      "(Un)Maximize Window": "5"
 
     }
   },
@@ -102,7 +103,7 @@
       "Expo": "3",
       "Show Desktop": "2",
       "Move Window": "4",
-      "Maximize Windows": "5"
+      "(Un)Maximize Window": "5"
     }
 
   },
@@ -115,7 +116,8 @@
       "Scale": "1",
       "Expo": "3",
       "Show Desktop": "2",
-      "Move Window": "4"
+      "Move Window": "4",
+      "(Un)Maximize Window": "5"
 
     }
   },
